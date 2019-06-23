@@ -10,3 +10,5 @@ To run
     ng serve -o
 
 The implementation is based on the original example app from ngrx https://github.com/ngrx/platform/tree/master/projects/example-app
+
+To use the redux devtools in chrome download and install: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
