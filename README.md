@@ -14,3 +14,13 @@ The implementation is based on the original example app from ngrx https://github
 To use the redux devtools in chrome download and install: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 
 I've added TODO markers to indicate which places probably still need updates inside the core.
+
+Updating packages and doing an audit with github causes issues with angular-devkit/build-angular
+
+Solution:
+
+    npm uninstall @angular-devkit/build-angular
+    
+Then
+    
+    npm install @angular-devkit/build-angular@0.13.0
